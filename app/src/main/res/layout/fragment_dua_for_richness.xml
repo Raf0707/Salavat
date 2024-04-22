@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bannerContainerFragment"
+    android:tag="bannerContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dua.DuaForRichnessFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollZickr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <!-- Title, secondary and supporting text -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="الاستغفار"
+
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Аль Истигфар"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Ключ к вратам Рая"
+                            android:textSize="24sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:id="@+id/i1Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ "
+                            android:textStyle="bold"
+                            android:textSize="28sp" />
+
+                        <TextView
+                            android:id="@+id/i1Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Транскрипция: \n Раббана атина фид-дунья хасанатау уа филь ахырати хасанатау уа-кына 'азабан-нар."
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:id="@+id/i1Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: Господь наш, дай нам в этом мире благо и в последней жизни благо, и защити нас от мучений огня \n \n (Коран, 2:201, Бухари 6389, Муслим 2690)"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <!-- Title, secondary and supporting text -->
+                        <TextView
+                            android:id="@+id/i2Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِٱللَّٰه العَلِيِّ العَظِيم"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i2Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Ля хауля уа ля куввата илля биЛляхиль 'Алиййиль 'Азым"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i2Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: \n Нет силы оставить плохое, греховное и обратиться к благому, и нет мощи поклоняться Аллаху, придерживаться благого, кроме как от Аллаха Всевышнего, Великого. \n \n Асад ибн Вадаа передаёт от Пророка (мир ему и благословение Аллаха):
+
+    «Кто скажет: «Ля хауля ва ля куввата илля билляhи ль-'аллиййи ль-'азым» каждый день по 100 раз, того никогда не постигнет бедность». \n \n (Ибн Аби ад-Дунья) \n \n От Абу Хурайры (да будет доволен им Аллах) также передается, что Пророк (мир ему и благословение Аллаха) сказал:
+
+«Тот, кому Аллах дал благо, пусть часто воздает хвалу Аллаху (Аль-хамду ли-Ллях), тот, у кого много грехов, пусть чаще просит прощения (Астагфиру Ллах), а тот, кого Аллах задержал пропитание, пусть чаще произносит «Ля хавля ва ля куввата илля биллях» – «Нет силы и мощи ни у кого, кроме Аллаха». \n \n (Табарани, Аль-Авсат)"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/i3Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="اللَّهُمَّ اكْفِنِي بحَلالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i3Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Аллахумма кфини бихалялика ‘ан харамика ва агнини бифадлика ‘амман сивак"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i3Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: О, Аллах! Защити меня дозволенным от запретного, сделай меня не нуждающимся ни в ком, кроме Тебя \n \n (ат-Тирмизи 3563, Рияд Ас-Салихин 1486)"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/i4Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="لَا اِلَهَ اِلَّا اللهُ المَلِكُ الحَقُّ المُبِين"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i4Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Ля иляха илля Ллахуль Маликуль Хаккуль Мубиин"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i4Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: Нет никого и ничего, достойного поклонения, кроме Аллаха, Властителя, Истинного, Явного \n \n Передаётся от Али (да будет доволен им Аллах), что Посланник Аллаха (мир ему и благословение аллаха) сказал:
+
+«Тому, кто будет говорить каждый день по сто раз «Ля иляха илля ллаху ль-Малику ль-Хакку ль-Мубин», это станет спасением от бедности и другом, спасающим его в могиле от одиночества» \n \n (Абу Наим, Дайлами) \n \n Тому, кто желает разбогатеть, следует читать это дуа по 100 раз. («Канх аль-Уммаль», № 2896, том 2, стр. 233, «Маснун Дуа», стр. 73, Дар аль-Ислам Бардули)"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/i5Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="سُبْحَانَ اللَّهِ وَ بِحَمْدِهِ، سُبْحَانَ اللَّهِ العَظِيم، أَستَغفِرُ اللَّه"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i5Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Субхана Ллахи уа би хамдихи СубханаЛлахиль 'Азым, АстагфируЛлах"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i5Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: Пречист Аллах, вся хвала Аллаху, Пречист Великий Аллах. Прошу прощения у Аллаха \n \n От Ибн Умара (да будет доволен им Аллах) передаётся, что один человек сказал Пророку (мир ему и благословение Аллаха):
+
+«О, Посланник Аллаха, этот мир отвернулся от меня, и он всё удаляется и удаляется от меня». Пророк (мир ему и благословение Аллаха) сказал ему:
+
+«Разве ты не слышал молитву (салят) ангелов и тасбих всех созданий Аллаха, посредством которой они и получают свой удел? Читай сто раз на рассвете: «Субхана Ллахи ва бихамдихи Субхана Ллахи ль-'азым, астагфиру Ллах», и весь мир смиренно придёт к тебе».
+
+Этот человек ушёл и через некоторое время вернулся и сказал: «О посланник Аллаха, поистине этот мир повернулся ко мне так, что я не знаю, куда бы положить его (имущество)». (Аль-Хатыб)"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/i6Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْجُبْنِ وَالْبُخْلِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i6Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Аллахумма инни а’узу бика миналь-хамми валь-хазани, валь-‘аджзи валь-касали, валь-джубни валь-бухли, ва даля’и-д-дайни ва гъалябати-р-риджаль"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i6Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: О Аллах, поистине, я прибегаю к Твоей защите от беспокойства и грусти, от слабости и нерадения, от скупости и малодушия, от бремени долга и притеснения людей \n \n Аль-Бухари 2329"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/i7Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="اَللَّهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَنْ تَشَاءُ وَتَنْزِعُ الْمُلْكَ مِمَّن تَشَاءُ وَتُعِزُّ مَنْ تَشَاءُ وَتُذِلُّ مَنْ تَشَاءُ بِيَدِكَ الْخَيْرُ إِنَّكَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ * تُولِجُ اللَّيْلَ فِي النَّهَارِ وَتُولِجُ النَّهَارَ فِي اللَّيْلِ وَتُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَتُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ وَتَرْزُقُ مَنْ تَشَاءُ بِغَيْرِ حِسَابٍ ، يَا رَحْمٰنَ الدُّنْيَا وَالْآخِرَةِ وَرَحِيمُهُمَا تُعْطِي مَنْ تَشَاءُ مِنْهَا وَتَمْنَعُ مَنْ تَشَاءُ، ارْحَمْنِي رَحْمَةً تُغْنِينِي بِهَا عَنْ رَحْمَةِ مَنْ سِوَاكَ"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i7Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Аллаhумма малика-ль-мульки туъти-ль-мулька манн ташау ва танзи’у-ль-мулька мимманн ташау ва ту’иззу манн ташау ва туҙиллю манн ташау биядика-ль-хайру иннака ‘аля кулли шайъин ḱадир. Тулиджу лляйля фи ннаhари ва тулиджу ннаhари фи лляйли ва тухриджу-ль-ẍаййя мина-ль-маййити ва тухриджу-ль-маййита мина-ль-ẍаййи ва тарзуḱу мин ташау биґайри ẍисаб.
+
+Йа Раẍмана ддунйа ва-ль-ахирати ва раẍимуhума, ту’ҭи манн ташау минhа ва тамна’у  манн ташау, ирẍамни раẍматан туґнини биhа ‘ан раẍмати ман сивак"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i7Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: О Аллах, Властелин  всего сущего! Ты даруешь, кому пожелаешь, и отнимаешь, у кого пожелаешь. Всё происходит по твоей воле; возвеличиваешь, кого пожелаешь, и унижаешь, кого пожелаешь. Ты даёшь все блага. Воистину, Ты над всем сущим властен. Ты удлиняешь день за счёт ночи и удлиняешь ночь за счёт дня. Ты выводишь живое из мёртвого и выводишь мёртвое из живого (то есть семена превращаешь в  растения, а растения в семена и т.п.). Ты даруешь удел без счёта, кому пожелаешь»,  и даруешь, не считая, удел, кому пожелаешь.
+
+О Милостивый в этом мире и ином, Ты даруешь в обоих мирах, что пожелаешь и отвергаешь, что пожелаешь. Даруй мне такую милость, которая избавит меня от нужды в милости кого-либо другого \n \n Посланник Божий ﷺ обучил Му’аза ибн Джабаля следующей мольбе из священного Корана (26-27 аяты суры «Алю-Имран») для избавления от долгов, И далее (Пророк ﷺ) добавил дуа: О Милостивый в этом мире и ином, Ты даруешь в обоих мирах, что пожелаешь и отвергаешь, что пожелаешь. Даруй мне такую милость, которая избавит меня от нужды в милости кого-либо другого».
+
+Затем Пророк ﷺ пояснил: «Когда ты прочитаешь его, Аллах поможет тебе избавиться от долга, если даже он подобен горе Ухуд!».
+
+\n \n Ат-Табарани"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/i8Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="اللَّهُمَّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَالْمُسْلِمِينَ وَالْمُسْلِمَاتِ اَلأَحْيَاءِ مِنْهُمْ وَالأمْوَاتِ"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i8Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Аллахумма гфир ли уали уалидаййа уа лиль му'минина уаль му'минат уаль муслимина уаль муслимат, аль ахья и минхум уаль амват"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i8Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: О Аллах! Прости меня и моих родителей, верующих мужчин и верующих женщин, мусульман и мусульманок, живых и покойных. "
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:id="@+id/i8Hadith"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Сообщается, что Посланник Аллаха, да благословит его Аллах и приветствует сказал:
+«Тому, кто попросит прощения для правоверных мужчин и женщин, Аллах запишет за каждого верующего мужчину и верующую женщину благое деяние». \n Хафиз аль-Хайсами назвал иснад хадиса отличным. См. «Маджма'у-з-заваид» 10/210. \n «Сахих аль-Джами' ас-сагир» 6026"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/i9Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="للَّهُمَّ اغْفِرْ لِي، وَارْحَمْنِي وَاهْدِنِي، وَارْزُقْنِي"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i9Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Аллахумма гфир ли уа рхам ни уа хди ни уа рзук ни"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i9Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: О Аллах, прости меня, и помилуй меня, и выведи меня на правильный путь и даруй мне средства к существованию! (Рияд-ас-Салихин, 1414)"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i9_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/i9_1Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="اللَّهُمَّ اغْفِرْ لِي، وَارْحَمْنِي، وَعَافِني، وارْزُقْنِي"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i9_1Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Аллахумма гфир ли уа рхам ни уа 'афи ни уа рзук ни"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i9_1Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: О Аллах, прости меня, и помилуй меня, и избавь меня и даруй мне средства к существованию! (Рияд-ас-Салихин, 1469)"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/i10Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ربّ اغْفِرْ لي وَتُبْ عَلَيَّ إنَّكَ أنْتَ التَّوَّابُ الرَّحيمُ"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i10Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Рабби-гфир ли ва туб 'аляййа, инна-кя Анта-т-Таввабу-р-Рахим"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i10Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: Господь мой, прости меня и прими моё покаяние, поистине, Ты – Принимающий покаяние, Милосердный! \n (Абу Дауд 1516, Ибн Маджах 3814, аль-Хаким 1/511)"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/i11Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="رَبَّنَا ظَلَمْنَا أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i11Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Раббана залямна анфусана уа иллям тагфир ляна уа тархамна ля накунанна миналь хасирин"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i11Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: Господь наш! Мы поступили несправедливо по отношению к себе, и если Ты не простишь нас и не смилостивишься над нами, то мы непременно окажемся одними из потерпевших урон (Коран, 7:23)"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/i12Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="اللَّهُمَّ أَنْتَ رَبِّي لا إِلَهَ إِلا أَنْتَ خَلَقْتَنِي وَأَنَا عَبْدُكَ وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَمَا اسْتَطَعْتُ أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لا يَغْفِرُ الذُّنُوبَ إِلا أَنْتَ"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i12Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Аллахумма анта Рабби, ля иляха илля анта, халяктани ва ана 'абдука, ва ана 'аля а'хдика ва ва'дика мастата'ту. А'узу бикя мин шарри ма сана'ту, абуу лякя би ни'матикя а'лейя ва абу бизанби фагфир лии фа иннаху ля йагфируз зунуба илля ант"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i12Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: О Аллах! Ты мой Господь. Нет божества кроме Тебя, достойного поклонения. Ты сотворил меня, и я Твой раб. И я стараюсь по мере сил сдержать клятву о покорности и верности Тебе. Я прибегаю к Твоей защите от зла того, что я совершил, признаю милость, оказанную Тобой мне, и признаю свой грех. Прости же меня, ибо, поистине, никто не прощает грехов, кроме Тебя! (Бухари, «Даават», 2/26; Абу Давуд, «Адаб», 100/101; Тирмизи, «Даават», 15; Насаи, «Истиазе», 57)"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/i13Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="أسْتَغْفِرُ اللَّهَ الَّذي لا إِلهَ إِلاَّ هُوَ الحَيَّ القَيُّومَ وأتُوبُ إِليْهِ"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i13Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Астагфиру-Ллаха-ллязи ля иляха илля хува-ль-Хаййа-ль-Каййума ва атубу иляй-хи"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i13Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: Прошу прощения у Аллаха, помимо Которого нет иного бога, Живого, Вечносущего, и приношу Ему своё покаяние (Абу Дауд, 1517; Тирмизи 3577; Байхаки, «Аль-Асмау ва сифат», 75; Хаким, 2550, Имам Ахмад, 11074; Тирмизи, 3397)"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/i14Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="اَللّهُمَّ إِنِّي أَسْأَلُكَ يَا اللهُ بِأَنَّكَ الْوَاحِدُ الْأَحَدُ الصَّمَدُ
+اَلَّذِي لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَهُ كُفُوًا أَحَدٌ
+أَنْ تَغْفِرَلِي ذُنُوبِي، إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/i14Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="Транскрипция: \n Аллахумма инни ас алюка йа Аллаах бианнакяль-Уахидуль-Ахадус-Самад
+Аллязи лям йалид ва лям йууляд ва лям йакуль-ляху куфуван ахад
+Ан тагфира ли зунуби, иннакя анталь-Гафуру р-Рахим"
+                            android:textStyle="normal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/i14Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: О Аллах! Воистину я прошу Тебя - о Аллах - поскольку Ты Один, Единственный, Вечный, к Которому обращаются в нужде и с просьбой, Который не родил и не был рождён и Которому никто не подобен, чтобы Ты простил мне грехи. Ведь воистину, Ты Прощающий, Милосердный!"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/i15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026"
+                app:strokeColor="@color/purple_300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:id="@+id/i15Arabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="اللَّهُمَّ إِنَّكَ عَفُوٌّ كَرِيمٌ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي"
+                            android:textStyle="bold"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/i15Transcript"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Транскрипция: \n Аллахумма иннакя 'афуввун Кярим тухыббуль 'аффуа фа'фуанни"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:id="@+id/i15Translate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Перевод: О, Аллах! Ты – Прощающий, и любишь прощать. Прости же меня"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

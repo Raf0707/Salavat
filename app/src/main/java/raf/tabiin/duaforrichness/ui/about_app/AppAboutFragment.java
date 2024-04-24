@@ -124,8 +124,8 @@ public class AppAboutFragment extends Fragment {
 
         binding.rateBtn.setOnLongClickListener(v -> {
             addOnClick(v, "RuStore link rate copied",
-                    ClipData.newPlainText(getString(R.string.rateApp),
-                            "https://apps.rustore.ru/app/ru.tabiin.alistigfar"));
+                    ClipData.newPlainText("https://apps.rustore.ru/app/raf.tabiin.duaforrichness",
+                            "https://apps.rustore.ru/app/raf.tabiin.duaforrichness"));
             return true;
         });
 
@@ -197,7 +197,7 @@ public class AppAboutFragment extends Fragment {
 
         binding.rateBtn.setOnClickListener(v -> new CustomTabUtil()
             .openCustomTab(getActivity(),
-                    getString(R.string.rateApp),
+                    "https://apps.rustore.ru/app/raf.tabiin.duaforrichness",
                     R.color.purple_300));
 
 

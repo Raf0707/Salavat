@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
         int nightIcon = SharedPreferencesUtils.getInteger(this, "nightIcon", R.drawable.vectornightpress);
 
-        //App.instance = new App();
         App.instance.setNightMode();
 
         SplashScreen splashScreen = SplashScreen.installSplashScreen(this);
@@ -126,6 +125,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         binding.navView.setSelectedItemId(R.id.duaforreachness);
+        binding.themeBtn.setVisibility(View.GONE);
 
         binding.navView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()) {
@@ -136,6 +136,8 @@ public class MainActivity extends AppCompatActivity {
                             .replace(R.id.containerFragment, new DuaForRichnessFragment())
                             .commit();
 
+                    binding.themeBtn.setVisibility(View.GONE);
+
                     return true;
 
                 case R.id.counter:
@@ -143,6 +145,8 @@ public class MainActivity extends AppCompatActivity {
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.containerFragment, new MainSwipeFragment())
                             .commit();
+
+                    binding.themeBtn.setVisibility(View.VISIBLE);
 
                     return true;
 

@@ -97,7 +97,7 @@ public class AppAboutFragment extends Fragment {
         binding.sourceCodeBtn.setOnLongClickListener(v -> {
             addOnClick(v, getString(R.string.link_to_source_copied),
                     ClipData.newPlainText(getString(R.string.getContext),
-                            getString(R.string.source_code_url)));
+                            "https://github.com/Raf0707/Dua_for_Richness"));
             return true;
         });
 
@@ -152,7 +152,7 @@ public class AppAboutFragment extends Fragment {
 
         binding.sourceCodeBtn.setOnClickListener(v -> new CustomTabUtil()
                 .openCustomTab(getActivity(),
-                        getString(R.string.source_code_url),
+                        "https://github.com/Raf0707/Dua_for_Richness",
                         R.color.purple_300));
 
         binding.rafailBtn.setOnClickListener(v -> new CustomTabUtil()

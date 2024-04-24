@@ -14,7 +14,7 @@ import raf.tabiin.duaforrichness.R;
 import raf.tabiin.duaforrichness.databinding.CounterItemElementBinding;
 import raf.tabiin.duaforrichness.domain.models.CounterItem;
 
-public class CounterAdapter extends RecyclerView.Adapter<CounterAdapter.MyViewHolder> {
+    public class CounterAdapter extends RecyclerView.Adapter<CounterAdapter.MyViewHolder> {
 
     private Context context;
     private List<CounterItem> counterList;

@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     
     <item
-        android:id="@+id/duaforreachness"
+        android:id="@+id/salavat"
         android:icon="@drawable/baseline_auto_stories_24"
-        android:title="Ду'а для богатства" />
+        android:title="Салаваты" />
 
     <item
         android:id="@+id/counter"

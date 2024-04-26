@@ -1,4 +1,4 @@
-package raf.tabiin.duaforrichness;
+package raf.tabiin.salavat;
 
 import org.junit.Test;
 
